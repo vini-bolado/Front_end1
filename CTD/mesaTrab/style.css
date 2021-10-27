@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(223, 215, 185);
+    text-decoration-color: rgb(51, 51, 51);
+
+}
+
+ul {
+    text-decoration-color: rgb(223, 215, 185);  
+    background-color: ;
+}
+
+footer {
+    background-color: rgba(71, 69, 69, 0.507);
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+
+    color: blue;
+}
+
+.job-title {
+    background-color: blueviolet;
+}
