@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.media-picture {
+    background-image: url('https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/04/vingadores.jpg');
+    height: 400px;
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+.review-score {
+    background-color: gold;
+    padding: 12px;
+    color: white;
+
+}
+
+a {
+    color: gold;
+}
+body {
+
+    background-color: black;
+
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: white;
+    
+}
+
