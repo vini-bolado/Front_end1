@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CheckPoint2</title>
 </head>
-<body>
+
+
+<body class="gradient">
 
 
 
@@ -17,49 +19,52 @@
 
             <h1>Cadastro</h1>
 
-            <p class="main-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quia ipsam cum molestiae enim maxime amet commodi odit quis ab.</p>
+            <p class="main-text">
+                Checkpoint 02 - Front End I - Grupo 7!!!
+            </p>
 
             <fieldset>
 
                 <legend>Dados pessoais</legend>
 
-                <div>
+            <div>
+
+                <div >
                     <label for="name">Nome</label>
                     <input type="text" name="name" id="name" placeholder="Digite o seu nome" class="custom-input">
                 </div>
 
+
                 <div>
-                    <label for="name">Telefone</label>
-                    <input type="text" name="name" id="name" placeholder="Digite o seu nome" class="custom-input">
+                    <label for="Telefone">Telefone</label>
+                    <input type="number" name="Telefone" id="Telefone" placeholder="Digite o seu Telefone" class="custom-input">
                 </div>
 
+
                 <div>
-                    <label for="name">Idade Nasciemento</label>
 
-                    <input type="text" name="name" id="name" placeholder="Digite o seu nome" class="custom-input">
+                    <label for="Birth">Nascimento</label>
 
-                    
-                <div>
-                    <label for="name">Email</label>
-
-                    <input type="text" name="name" id="name" placeholder="Digite o seu nome" class="custom-input">
+                    <input type="date" name="Birth" id="Birth"  class="custom-input">
                 </div>
-        
 
-                    <div class="box">
+                <div class="email">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" placeholder="Digite o seu Email" class="custom-input">
+                </div>
+
+            </div>
+
+                    <div>
                         <input type="radio" name="option" id="firstOption" class="custom-checkbox">
-
                         <label for="firstOption">Maior de 18+</label>
-
                         <input type="radio" name="option" id="SecondOpition" class="custom-checkbox">
-
                         <label for="secondOpition">Menor de 18+</label>
                     </div>
 
 
-
-                    <label for="interest-area">Qual trilha vc gostaria de fazer em bombinhas?</label>
-                    <select name="interest-area">
+                    <label for="interest-area">Qual trilha você gostaria de fazer em bombinhas?</label>
+                    <select class="interest-area" name="interest-area">
 
                         <option value="1">PEDRA DESCANSA DEFUNTO</option>
                         <option value="2">DUAS IRMÃS</option>
@@ -69,7 +74,7 @@
 
                     <label for=""></label>
                     
-                    <div class="box">
+                    <div>
                         <input type="checkbox" name="option" id="firstOption" class="custom-checkbox">
                         <label for="firstOption">Turista</label>
                         <input type="checkbox" name="option" id="SecondOpition" class="custom-checkbox">
@@ -81,19 +86,15 @@
 
 
 
+            </fieldset> 
 
-
-                </div>
-
-
-
-            </fieldset>
-
-            <button class="success-button">Prosseguir</button>
-
+            <button class="success-button" type="submit">Prosseguir</button>
+            
         </form>
 
     </main>
+    
+        <h1 class="text">DH Turismo</h1>
     
     
 </body>
